@@ -1,0 +1,23 @@
+.root{
+    -fx-background-image : url("imagenes/fondo.jpg");
+}
+
+.text-field {
+    -fx-focus-color: #5499C7;
+}
+
+.button {
+    -fx-background-color: #5499C7;
+    -fx-border-color: black;
+    -fx-text-fill: white
+}
+
+.button:hover {
+    -fx-text-fill: black;
+    -fx-background-color: white;
+}
+
+.button:pressed {
+    -fx-text-fill: white;
+    -fx-background-color: #00838A;
+}

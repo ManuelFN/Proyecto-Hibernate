@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="proyecto.Datos" table="datos">
+        <id name="id" column="id" type="int">
+            <generator class="assigned" />
+        </id>
+        <property name="nombre" column="nombre" type="string" />
+        <property name="apellidos" column="apellidos" type="string" />
+        <property name="edad" column="edad" type="int" />
+        <property name="ciudad" column="ciudad" type="string" />
+    </class>
+</hibernate-mapping>
